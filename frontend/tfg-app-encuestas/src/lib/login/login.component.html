@@ -1,0 +1,41 @@
+<div class="login-container">
+  <div class="header">
+    <h1>Tu Encuest@</h1>
+  </div>
+
+  <div class="content">
+    <div class="left">
+      <div class="illustration">
+        <img src="assets/formulario-de-acceso.png" alt="Encuestas" />
+      </div>
+      <div class="description">
+        <p>
+          Las encuestas de satisfacción del cliente son estudios cualitativos y cuantitativos elaborados por una empresa u organización para conocer el nivel de conformidad con respecto a un producto, un servicio o una marca. Por lo tanto, forman parte de las estrategias para conocer mejor a tus clientes.
+        </p>
+      </div>
+      <div class="buttons">
+        <button class="button primary">Acceder</button>
+        <button class="button secondary">Registrarse</button>
+      </div>
+    </div>
+    <div class="right">
+      <div class="login-box">
+        <h2>Acceso</h2>
+        <form (ngSubmit)="iniciarSesion()">
+          <div class="form-group">
+            <label for="usuario">Usuario</label>
+            <input type="text" id="usuario" [(ngModel)]="correo" name="correo" required />
+          </div>
+          <div class="form-group">
+            <label for="contrasena">Contraseña</label>
+            <input type="password" id="contrasena" [(ngModel)]="contrasena" name="contrasena" required />
+          </div>
+          <div class="form-group">
+            <a href="/recuperar-contrasena">Recuperar contraseña</a>
+          </div>
+          <button type="submit" class="btn-acceder">Acceder</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

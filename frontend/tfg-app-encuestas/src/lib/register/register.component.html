@@ -1,0 +1,24 @@
+<div class="register-container">
+    <div class="header">
+      <h1>Tu Encuest@</h1>
+    </div>
+  
+    <div class="register-box">
+      <h2>Registro</h2>
+      <form (ngSubmit)="registrarUsuario()">
+        <div class="form-group">
+          <label for="nombreUsuario">Nombre de Usuario</label>
+          <input type="text" id="nombreUsuario" [(ngModel)]="nombreUsuario" name="nombreUsuario" required />
+        </div>
+        <div class="form-group">
+          <label for="correo">Correo</label>
+          <input type="email" id="correo" [(ngModel)]="correo" name="correo" required />
+        </div>
+        <div class="form-group">
+          <label for="contrasena">Contraseña</label>
+          <input type="password" id="contrasena" [(ngModel)]="contrasena" name="contrasena" required />
+        </div>
+        <button type="submit" class="btn-registrar">Registrarse</button>
+      </form>
+    </div>
+  </div>
