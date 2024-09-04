@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { DataService } from './data.service';
+import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
@@ -7,20 +6,8 @@ import { RouterOutlet } from '@angular/router';
   standalone: true,
   imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.less'
+  styleUrl: './app.component.css'
 })
-//export class AppComponent {
-//  title = 'tfg-app-encuestas';
-//}
-export class AppComponent implements OnInit {
+export class AppComponent {
   title = 'tfg-app-encuestas';
-  data: any;
-
-  constructor(private dataService: DataService) {}
-
-  ngOnInit() {
-    this.dataService.getData().subscribe(response => {
-      this.data = response.message;
-    });
-  }
-}
+};

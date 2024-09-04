@@ -1,0 +1,76 @@
+
+.login-container, .register-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    text-align: left;
+  }
+  
+  .login-container h2, .register-container h2 {
+    margin-bottom: 20px;
+    color: #ff0077;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  /*
+  #botonesregistro{
+    display: block;
+    margin-bottom: 10px; /* Añade un espacio de 10px debajo de cada botón 
+  padding: 10px;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  */
+  #textoregistro{
+font-size: large;
+color: #0000009f;
+font-style: normal;
+font-weight: 200;
+padding: 10px;
+border-radius: 5px;
+resize: vertical; /* Permitir que el textarea sea redimensionable solo verticalmente */
+}
+
+  form button {
+    width: 100%;
+    padding: 10px;
+    display: block;
+    margin-bottom: 10px; /* Añade un espacio de 10px debajo de cada botón */
+    background-color: #ff0077;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-style: normal;
+    font-size:large;
+  }
+  
+  form button:hover {
+    background-color: #000000;
+  }
+  
+  a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #ff0077;
+  }

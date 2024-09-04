@@ -1,0 +1,64 @@
+
+/*body {
+  background-color: #cfcfcf; /* color de fondo 
+  background-image: url('assets/Formularios.png');
+  /*background-size: cover; /* Ajusta la imagen para que cubra todo el fondo 
+  background-repeat: no-repeat; /* Evita que la imagen se repita 
+  background-attachment: fixed; /* Fija la imagen en su posición 
+  background-position: center; /* Centra la imagen en la pantalla 
+}
+*/
+/*
+body {
+  background-color: #cfcfcf; /* Cambia este color por el que desees 
+}
+*/
+.container {
+    text-align: center;
+    padding: 20px;
+  }
+  header h1 {
+    color: #ff0077;
+    font-size: 3em;
+  }
+  
+  .content {
+    margin-top: 20px;
+  }
+  
+  .image-placeholder img {
+    width: 50%;
+    height: auto;
+  }
+  
+  .description {
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  .buttons {
+    margin-top: 30px;
+   
+  }
+  #botonesinicio{
+    display: block;
+    justify-content: center;
+    /*justify-content: space-around;*/
+  }
+  
+
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1.2em;
+    background-color: #ff0077;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #000000;
+  }
